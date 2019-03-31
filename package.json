@@ -1,0 +1,32 @@
+{
+	"name": "rows-from-array",
+	"version": "1.0.0",
+	"description": "Create rows from an array with no bullshit!",
+	"license": "MIT",
+	"repository": "hamxabaig/rows-from-array",
+	"author": {
+		"name": "Hamza Baig",
+		"email": "hamzabaig18@gmail.com",
+		"url": "http://hamxabaig.github.io"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"array",
+		"rows",
+		"divide",
+		"nested arary"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.21.0"
+	}
+}
