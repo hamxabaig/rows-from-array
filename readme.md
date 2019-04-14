@@ -46,12 +46,15 @@ The length of the rows to divide the array into. Each element will be this lengt
 Type: `any`<br>
 Default: `N/A`
 
-Used to fill the array rows if the length is uneven. For instance, 
+Used to fill the array rows if the length is uneven. For instance,
 ```
 createRows([1, 2, 3, 4, 5, 6, 7], {rowLength: 3, fillRow: 0});
 //=> [[1, 2, 3], [4, 5, 6], [7, 0, 0]]
 ```
 
+## Related
+
+-	[cols-from-array](https://github.com/hamxabaig/cols-from-array) - Create columns from an array
 
 ## License
 
